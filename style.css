@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    font-size: 18px;
+}
+
+/* Header Styling */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 15px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: "fredoka";
+    padding-top: 2px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+header nav ul li a:hover {
+    color: black;
+    background-color: #f4f4f4;
+
+
+
+
+}
+
+
+
+/* Hero Section */
+.hero {
+    background: #333;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    background: #ff6700;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Fredoka';
+}
+
+.hero .btn:hover {
+    background: #333;
+    color: #ff6700;
+}
+
+/* Section Styles */
+section {
+    /* padding: 60px 0; */
+    background: #f4f4f4;
+}
+
+#portfolio {
+    background: #fff;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2rem;
+    padding-top: 70px
+}
+
+.portfolio-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.portfolio-item {
+    background: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.portfolio-item img {
+    border-radius: 10px;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.skills-list li a {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 4px;
+    text-decoration: none;
+}
+
+/* Contact Form */
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #ff6700;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media(max-width: 768px) {
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .portfolio-grid {
+        flex-direction: column;
+    }
+}
+
+.coder-vala {
+    font-family: "fredoka";
+}
+
+.btn {
+    font-family: "fredoka";
+}
+
+.Name-logo {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.project-vali-images {
+    height: 150px;
+}
+
+.skills-list li a:hover {
+    color: #ff6700;
+}
+
+.JAB-MAG {
+    animation: JAB-MAG 1S infinite;
+    text-shadow: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
+@keyframes JAB-MAG {
+    50% {
+        color: white;
+    }
+
+    100% {
+        color: #ff6700;
+    }
+}
+
+#about-me-image {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    /* transform: translate(-50%, 146%); */
+    border: 2px solid #ff6700;
+    margin-top: 10px;
+}
+
+#submit:hover {
+    background-color: #ff6700;
+    cursor: pointer;
+
+}
+
+#submit {
+    transition: 0.5s;
+}
+
+
+#about-me-image2 {
+    margin-right: 100px;
+    font-size: larger;
+
+}
+#horizontal-line{
+
+}
