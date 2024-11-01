@@ -83,6 +83,7 @@ li a {
   display: flex;
   justify-content: space-around;
   margin: 23px 0px;
+  align-items: center;
 }
 
 .firstSection div {
@@ -184,7 +185,7 @@ li a:hover {
 #heroSection {
   height: 89.7vh;
   padding-top: 20px;
-}
+  }
 
 #Pulse {
   z-index: 1;
