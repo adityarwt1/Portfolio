@@ -587,7 +587,7 @@ h3 {
   display: flex;
   justify-content: center;
 }
-@media (max-width:768px){
+@media screen and (max-width:768px){
   #humburger{
     width: 10px;
     display: block;
