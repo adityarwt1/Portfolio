@@ -2,122 +2,221 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ADITYA RAWAT1 | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="website icon" href="enhanced-image.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ADITYA - FRONTEND || PORTFOLIO</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.emailjs.com/dist/email.min.js">
+    (function () {
+      emailjs.init('xx_0QaWBudgUAYWYf');
+      emailjs.init('YOUR_USER_ID'); // Replace 'YOUR_USER_ID' with the one from EmailJS dashboard.
+
+    })();
+
+  </script>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+
+    }
+  </style>
+
 </head>
 
 <body>
-    <!-- Navigation Bar -->
-    <header>
-        <div class="container">
-            <span class="Name-logo">Mr. ADITYA RAWAT</span>
-            <nav>
-                <ul>
-                    <li><a href="#about">ABOUT</a></li>
-                    <li><a href="#portfolio">PORTFOLIO</a></li>
-                    <li><a href="#skills">SKILLS</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
-                </ul>
-            </nav>
+  <header id="header">
+    <nav>
+      <div id="humbergerfix"><div class="left" id="Name">Aditya's Portfolio</div><button id="humburger">☰</button></div>
+      <div class="right">
+        <ul id="menu">
+          <li><a href="#heroSection">Home</a></li>
+          <li><a href="#aboutMe">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#freelance-section">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        
+      </div>
+
+    </nav>
+    </nav>
+  </header>
+  <main>
+    <section class="firstSection" id="heroSection">
+      <div class="leftsection">Hi, my name is <span id="name2">ADITYA</span>
+        <div>I am a<div class="typing-container">
+            <span id="element"></span>
+          </div>
         </div>
-    </header>
+        <button id="Pulse"><a href="https://youtube.com/@aditya-animation-ppt?si=i9XmV64lT6nhgEcP" style="    color: white;
+    text-decoration: none;" target="_blank">Visit YT</a></button>
+        <button id="Pulse"><a href="https://chat.whatsapp.com/IoQUlbAcpTkHOzgdmqFxWu" style="    color: white;
+    text-decoration: none;" target="_blank">Free Lancing</a></button>
+      </div>
+      <div class="rightSection"><img src="img/PngItem_1127587.png" alt="" id="productivityimage"></div>
+  </main>
+  </section>
+  <section id="aboutMe">
+    <div id="ImageAndName"><img id="authorimage" src="img/enhanced-image (1).png" alt="author Image">
+      <p id="ImageAndNamevalanam">ADITYA</p>
+      <p id="description">A front-end developer specializes in building the visual and interactive aspects of websites
+        or web apps, using HTML, CSS, and JavaScript to create user-friendly, responsive interfaces.</p>
+    </div>
+    <div id="personalInfo">
+      <div class="firstColum">
+        <p>Full Name: ADITYA RAWAT</p>
+        <p>Skill: Doveloper</p>
+        <p>Studying: 10<sup>th</sup> Standard </p>
+        <p>Locality: INDIA(MP)</p>
+      </div>
+    </div>
+  </section>
+  <section id="projects">
+    <!-- first project -->
+    <div class="card"><img src="img/weather app .png" alt="">
+      <p>Project 1: Weather App</p>
+      <p class="cardDescription">In this project you can check you location weather by input of location</p>
+      <button id="ViewCode"><a href="https://github.com/adityarwt1/Weather-App" style="    color: white;
+    text-decoration: none;" target="_blank">View Code</a></button>
+    </div>
+    <!-- second project -->
+    <div class="card"><img src="img/cureency converter.png" alt="">
+      <p>Project 2: Currency Converter</p>
+      <p class="cardDescription">Change INR to USD</p>
+      <button id="ViewCode"><a href="https://github.com/adityarwt1/currency_convertor" style="    color: white;
+    text-decoration: none;" target="_blank">View Code</a></button>
+    </div>
+    <!-- third project -->
+    <div class="card"><img src="img/live location searcher.png" alt="">
+      <p>Project 3: Location Searcher</p>
+      <p class="cardDescription">Search location using my code easily</p>
+      <button id="ViewCode"><a href="https://github.com/adityarwt1/live_Location-Searcher" style="    color: white;
+    text-decoration: none;" target="_blank">View Code</a></button>
+    </div>
+    <button id="seeallprojects"><a href="https://github.com/adityarwt1/All-mini-Projects" style="    color:rgb(18, 18, 62);;
+    text-decoration: none;" target="_blank">See All Projects</a></button>
+  </section>
+  <!-- freelancing Contact -->
+  <section id="freelancing">
+    <div class="container">
+      <h1>Freelancing Services</h1>
+      <p class="intro">I am a passionate freelancer offering high-quality services. Check out my recent work below and
+        feel free to reach out!</p>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <h1>Hello, I'm ADITYA</h1>
-            <p class="coder-vala">I'm a Coder</p>
-            <a href="#portfolio" class="btn">View My Work</a>
+      <!-- searvices Form Section -->
+      <section id="freelance-section">
+        <div class="intro">
+          <h2>Freelance Web Developer</h2>
+          <p>Hi! I'm a freelance web developer with expertise in front-end and back-end development. Browse my work and
+            reach out to me for your next project!</p>
         </div>
-    </section>
 
-    <!-- About Section -->
-    <section id="about">
-        <div class="container">
-           
-            <div id="about-me-image2"> <img src="enhanced-image.png" alt="internet-lagvale" id="about-me-image"><h3>ABOUT ME</h3></div>
-            <p>
-                I'm a passionate coddder specializing in HTML+CSS. I love creating impactful and
-                visually appealing designs and functional websites. Let's collaborate to bring your ideas to life.
-            </p>
+        <div class="portfolio">
+          <h3>My Work</h3>
+          <div class="portfolio-gallery">
+            <div class="portfolio-item"><img src="img/webdowlopment.webp" alt=""></div>
+            <div class="portfolio-item"><img src="img/video editing.webp" alt=""></div>
+            <div class="portfolio-item"><img src="img/phto editor.jpg" alt=""></div>
+            <!-- Add more project divs as needed -->
+          </div>
         </div>
-    </section>
 
-    <!-- Portfolio Section -->
-    <section id="portfolio">
-        <div class="container">
-            <h2>My Work</h2>
-            <div class="portfolio-grid">
-                <div class="portfolio-item">
-                    <img src="project1.png" type="png" alt="Project 1" class="project-vali-images">
-                    <h3>Web Dovelooement</h3>
-                    <p>I will make proffessionlly with HTML+CSS🗿</p>
-                </div>
-                <div class="portfolio-item">
-                    <img src="project2.png" alt="Project 2" class="project-vali-images">
-                    <h3>Data Entry</h3>
-                    <p>I can do data Entry</p>
-                </div>
-                <div class="portfolio-item">
-                    <img src="project3.png" type="png" alt="Project 3" class="project-vali-images">
-                    <h3>Animation with PPt</h3>
-                    <p>My Subscriber not Enough But My Animation Skills Enough for You</p>
-                </div>
-            </div>
+        <div class="contact">
+          <h3>Contact Me</h3>
+          <p>Scan the QR code below to join my WhatsApp freelancing group or contact me directly.</p>
+
+          <div class="qr-code">
+            <img src="img/scanner_whats.png" alt="WhatsApp personal contact QR Code" />
+          </div>
+
+          <p class="phone">Phone: <a href="tel:+919244524565">+919 2445 24565</a></p>
         </div>
-    </section>
+      </section>
+  </section>
+  <!-- working email section -->
+  <section class="contact contactSectionHeight" id="contact">
+    <div class="container">
+      <h2>Get in Touch</h2>
+      <p>Feel free to reach out for collaborations or just a friendly chat.</p>
 
-    <!-- Skills Section -->
-    <section id="skills">
-        <div class="container">
-            <h2 class="JAB-MAG">MY SKILLS</h2>
-            <ul class="skills-list">
-                <li title="see info about html"><a href="https://html.com/" target="_main">HTML</a></li>
-                <li title="see info about CSS"><a href="https://www.w3.org/Style/CSS/Overview.en.html"
-                        target="_main">CSS</a></li>
-                <li title="see info about JavaScript"><a href="https://www.javascript.com/"
-                        target="_main">JavaScript</a></li>
-                <li title="see info about React"><a href="https://react.dev/" target="_main">React</a></li>
-                <li title="see info about Python"><a href="https://www.python.org/" target="_main">Python</a></li>
-                <li title="see info about Figma"><a href="https://www.figma.com/" target="_main">Figma</a></li>
-            </ul>
-        </div>
-    </section>
+      <div id="contact-form">
+        <form id="form">
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required>
+          </div>
+          <div class="field">
+            <label for="email_id">Emain-ID</label>
+            <input type="text" name="email_id" id="email_id" required>
+          </div>
+          <div class="field">
+            <label for="message">Massage</label>
+            <input type="text" name="message" id="message" required>
+          </div>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <p>If you'd like to work together or have any questions, feel free to reach out!</p>
-            <form action="mailto:adityarawatnew2487@gmail.com" method="get" enctype="text/plain">
-                <label for="name">Your Name:</label>
-                <input type="text" id="name" name="name" required><br><br>
-                <div id="horizontal-line"></div>
+          <button type="submit" id="button" value="Send Email">Send Massage</button>
+        </form>
+      </div>
 
-                <label for="email">Your Email:</label>
-                <input type="email" id="email" name="email" required><br><br>
+      <div class="social-icons">
+        <a href="https://x.com/aditya_rwt1" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/aditya_rwt1/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/aditya-rawat-3862182b0/" target="_blank"><i
+            class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
 
-                <label for="message">Message:</label><br>
-                <textarea id="message" name="message" rows="5" required></textarea><br><br>
-
-                <input type="submit" id="submit">
-            </form>
-        </div>
-    </section>
-
-    <!-- Footer -->
+    <div class="status-message" id="statusMessage"></div>
     <footer>
-        <div class="container">
-            <p>&copy; 2024 ADITYA RAWAT . All rights reserved. Email id:- adityarawatnew2487@gmail.com </p>
-        </div>
+      <div class="container">
+        
+        <p>&copy; 2024 ADITYA RAWAT . All rights reserved. Email id:- adityarawatnew2487@gmail.com </p>
+      </div>
     </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed('#element', {
+        strings: ['Web Doveloper', 'Graphics Designer', 'Freelancer', 'Video Editor', 'Graphics Designer', 'Animator', 'Data Entry  Operator'],
+
+        typeSpeed: 50,
+
+      })
+        ;
+       btn = document.getElementById('button');
+
+      document.getElementById('form')
+        .addEventListener('submit', function (event) {
+          event.preventDefault();
+
+          btn.value = 'Sending...';
+
+          const serviceID = 'default_service';
+          const templateID = 'template_1bojjxi';
+
+          emailjs.sendForm(serviceID, templateID, this)
+            .then(() => {
+              btn.value = 'Send Email';
+              alert('Sent!');
+            }, (err) => {
+              btn.value = 'Send Email';
+              alert(JSON.stringify(err));
+            });
+        });
+    </script>
+      
+    <script src="script.js"></script>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+      emailjs.init('xx_0QaWBudgUAYWYf')
+    </script>
+
 </body>
 
 </html>
